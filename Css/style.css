@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Logo*/
+#logo-principal{
+    background: black;
+}
+#cabecalho{
+    float: left;
+    background: black;
+    width: 100%;
+}
+#cabecalho img{
+    margin: 13px 13px;
+}
+#menu{
+    float: right;
+    padding: 40px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+section{
+    text-align: center;
+    margin: auto;
+}
+#menu li{
+    font-size: 15pt;
+    padding: 24px;
+    background: white;
+    color: black;
+    display: inline;
+}
+#menu li:hover{
+    background: rgb(214, 214, 3);
+    cursor: pointer;
+}
+
+/*Conteúdo principal*/
+h1{
+    width: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35pt;
+    text-align: center ;
+    margin: auto;
+    background: rgb(214, 214, 3);
+    margin-top: 10px;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20pt;    
+}
+a{
+    text-decoration: none;
+}
+#container{
+    width: 920px;
+    margin: auto;
+    display:flex;
+}
+.conteudo-principal{
+    float: left;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 15px;
+}
+.conteudo-principal img{
+    width: 300px;
+}
+.conteudo-secundario{
+    float: left;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 15px;
+}
+.conteudo-secundario img{
+    width: 300px;
+}
+
+/*Conteúdo secundário*/
+#container-secundario{
+    width: 920px;
+    margin: auto;
+    display:flex;
+}
+
+/*Rodapé*/
+#rodape{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20pt;
+    background: #ddd;
+    text-align: center;
+    padding: 10px;
+}
